@@ -19,7 +19,7 @@ body {
   align-items: center;
   margin: 5px;
   border: 10px solid transparent;
-  border-color: #FC466B transparent #3F5EFB transparent;
+  border-color: #00d2ff transparent #3a47d5 transparent;
   border-radius: 50%;
   animation: thing 5s cubic-bezier(0.35, -0.14, 0.79, 1.22) infinite;
 }
@@ -30,8 +30,7 @@ body {
   align-items: center;
   margin: 5px;
   border: 10px solid gray;
-
-  background: linear-gradient(90deg, #00c9ff 0%, #92fe9d 100%);
+  background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
   border-radius: 50%;
   animation: thing2 5s cubic-bezier(0.35, -0.14, 0.79, 1.22) infinite;
 }
@@ -42,8 +41,8 @@ body {
   align-items: center;
   margin: 5px;
   border: 10px solid transparent;
-  border-color: #FDBB2D #3A1C71 #FDBB2D #3A1C71;
-  border-radius: 1%;
+  border-color: #d53369 #daae51 #d53369 #daae51;
+  border-radius: 25%;
   animation: thing3 5s cubic-bezier(0.35, -0.14, 0.79, 1.22) infinite;
 }
 
@@ -61,9 +60,7 @@ body {
 
 @keyframes thing3 {
   100% {
-    transform: rotatez(1turn);
+    transform: rotatez(-1turn);
   }
 }
 
-
-/* background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%); */
