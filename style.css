@@ -1,7 +1,8 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
+  background-color: gray;
 }
 
 body {
@@ -16,16 +17,53 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1px;
+  margin: 5px;
   border: 10px solid transparent;
-  border-color: #fdbb2d transparent transparent #22c1c3;
+  border-color: #FC466B transparent #3F5EFB transparent;
   border-radius: 50%;
   animation: thing 5s cubic-bezier(0.35, -0.14, 0.79, 1.22) infinite;
 }
 
-@keyframes thing {
-    100% {
-        transform: rotatez(1turn);
-    }
-    
+.thing2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  border: 10px solid gray;
+
+  background: linear-gradient(90deg, #00c9ff 0%, #92fe9d 100%);
+  border-radius: 50%;
+  animation: thing2 5s cubic-bezier(0.35, -0.14, 0.79, 1.22) infinite;
 }
+
+.thing3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  border: 10px solid transparent;
+  border-color: #FDBB2D #3A1C71 #FDBB2D #3A1C71;
+  border-radius: 1%;
+  animation: thing3 5s cubic-bezier(0.35, -0.14, 0.79, 1.22) infinite;
+}
+
+@keyframes thing {
+  100% {
+    transform: rotatez(1turn);
+  }
+}
+
+@keyframes thing2 {
+  100% {
+    transform: rotatez(1turn);
+  }
+}
+
+@keyframes thing3 {
+  100% {
+    transform: rotatez(1turn);
+  }
+}
+
+
+/* background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%); */
