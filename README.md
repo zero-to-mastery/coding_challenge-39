@@ -18,7 +18,7 @@ Student Submissions will be posted here at the end of the challenge:
 
 MarkLasby#4723  
 Github Repo  
-https://github.com/mlasby/-coding_challenge-39-.git  
+https://github.com/mlasby/-coding_challenge-39-  
 --------------   
   
 arf65#3134  
@@ -84,6 +84,7 @@ https://github.com/agathanelle/Concentric-Circle-Spinner
 izzy#7515  
 Github Repo  
 https://github.com/izzy-tait/ZTM-coding-challenge-39  
+--------------
   
 
 
